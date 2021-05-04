@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 100px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: rgba(96, 96, 96,.8);
+    color: #eee;
+}
+
+body{
+    background-image: url(https://www.bergenspromise.org/assets/images/donations/donate-background.jpg);
+}
+
+form{
+    background-color: rgba(96, 96, 96,.8);
+    color: #eee;
+    height: 100px;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 5%;
+    margin-left: 10%;
+    float: left;
+    width: 30%;
+}
+
+#submit{
+background-color: black;
+color: #eee;
+width: 200px;
+float: right;
+margin-right: 10px;
+}
+
+table{   
+    background-color: rgba(96, 96, 96,.8);
+    color: #eee;
+    height: 150px;
+    font-weight: bold;
+    font-size: larger;
+    width: 40%;
+    margin-top: 5%;
+    float: right;
+    margin-right: 10%;      
+}
+
+table, th, td {
+    height: 10px;
+    border: 1px solid    black;
+  }
+
+footer{
+    width: 100%;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgba(96, 96, 96,.8);
+    color: #eee;
+}
